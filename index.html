@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Window</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="main">
+    <h3>Для регистрации необходимо указать ваши персональные данные:</h3>
+    <form onsubmit="check_data(); return false;">
+<div class="registration_field">
+        <div class="fields">
+            <p> <font class="star">*</font> Имя</p>
+            <p>Адресс организации <br>
+            (компании)</p>
+            <p>Телефон</p>
+            <p><font class="star">*</font> Адрес эл.почты </p>
+        </div>
+    <div class="strings">
+        <input type="text" id="name"> <br>
+        <input type="text" id="company"> <br>
+        <input type="text" id="phone_number"> <br>
+        <input type="text" id="email">
+    </div>
+</div>
+    <div class="buttons">
+        <input type='reset' value='Очистить'>
+        <input type='submit' value='Отправить'>
+    </div>
+    <p> <font class="star">*</font> Поля обязательные для заполнения </p>
+        <p id="error"> <font class="star"></font> </p>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.main{
+    align-content: center;
+}
+.star{
+    color: red;
+}
+p{
+    margin: 10px;
+}
+input{
+    margin: 7px;
+}
+.registration_field{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.strings{
+    margin-left: 20px;
+}
+.fields{
+    margin-left: 20px;
+}
+.send{
+    margin-right: 40px;
+}
+.clean{
+    margin-left: 40px;
+}
+.buttons{
+    margin-left: 40px;
+}
